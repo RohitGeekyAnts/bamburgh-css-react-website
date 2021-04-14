@@ -11,32 +11,46 @@ export default function Footer() {
       </div>
       <div className="footermain">
         <div className="footercomp">
-          <h3>SERVICES</h3>
+          <a href="">
+            <h3>SERVICES</h3>
+          </a>
           <a href="">Products</a>
           <a href="">Services</a>
           <a href="">About us</a>
         </div>
         <div className="footercomp">
-          <h3>SUPPORT</h3>
+          <a href="">
+            <h3>SUPPORT</h3>
+          </a>
           <a href="">Products</a>
           <a href="">Services</a>
           <a href="">About us</a>
         </div>
         <div className="footercomp">
-          <h3>APPLICATIONS</h3>
+          <a href="">
+            <h3>APPLICATIONS</h3>
+          </a>
           <a href="">Products</a>
           <a href="">Services</a>
           <a href="">About us</a>
         </div>
-        <div className="footercomp">
-          <h3>SOCIAL CONNECTIONS</h3>
-          <p>Stay up to date with our latest updates and releases!</p>
+        <div className="footercomp" style={{ minWidth: "250px" }}>
+          <a href="">
+            <h3>SOCIAL CONNECTIONS</h3>
+          </a>
+          <p style={{ padding: "0px 10px" }}>
+            Stay up to date with our latest updates and releases!
+          </p>
         </div>
       </div>
       <hr />
 
-      <div className="footermain">
-        <div className="footercomp" id="footercopyright">
+      <div className="footermain" style={{ alignItems: "center" }}>
+        <div
+          className="footercomp"
+          id="footercopyright"
+          style={{ minWidth: "250px" }}
+        >
           copyright &copy; 2020 - UiFort.com
         </div>
         <div className="footercomp" id="footerbottom">

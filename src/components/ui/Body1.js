@@ -3,7 +3,7 @@ import graphicLayout from "../../images/graphicLayout.png";
 
 export default function Body1() {
   return (
-    <div id="body1main">
+    <div id="body1main" style={{ textAlign: "center" }}>
       <div className="container">
         <button id="body1btn">OVERVIEW</button>
         <div>
@@ -38,8 +38,7 @@ export default function Body1() {
             Bamburgh uses the Material-UI components framework for React.
           </p>
         </section>
-      </div>
-      <div className="container" id="body1carddiv">
+
         <section className="body1card">
           <img src={graphicLayout} alt="logo" />
 

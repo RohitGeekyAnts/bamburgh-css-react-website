@@ -10,13 +10,46 @@ const Header = () => {
             <img src={logo} alt="Logo" />
 
             <div className="textwhite" id="headernav1">
-              <span>GENERAL</span>
-              <br />
+              <div>GENERAL</div>
               <strong>bamburgh</strong>
             </div>
           </div>
+          <div id="dropdownmain">
+            <div className="dropdown">
+              <button className="dropdownbtn">hello</button>
+              <div className="dropdowncontent">
+                <a href="#">hdjbwdiuwbedfgegwfb</a>
+                <a href="#">hello</a>
+                <a href="#">hola</a>
+              </div>
+            </div>
+            <div className="dropdown">
+              <button className="dropdownbtn">hello</button>
+              <div className="dropdowncontent">
+                <a href="#">hdjbwdiuwbedfgegwfb</a>
+                <a href="#">hello</a>
+                <a href="#">hola</a>
+              </div>
+            </div>
+            <div className="dropdown">
+              <button className="dropdownbtn">hello</button>
+              <div className="dropdowncontent">
+                <a href="#">hdjbwdiuwbedfgegwfb</a>
+                <a href="#">hello</a>
+                <a href="#">hola</a>
+              </div>
+            </div>
+            <div className="dropdown">
+              <button className="dropdownbtn">hello</button>
+              <div className="dropdowncontent">
+                <a href="#">hdjbwdiuwbedfgegwfb</a>
+                <a href="#">hello</a>
+                <a href="#">hola</a>
+              </div>
+            </div>
+          </div>
 
-          <div id="headerselectdiv">
+          {/* <div id="headerselectdiv">
             <select name="Apps" value="Apps" className="headerselect">
               <option>Apps</option>
               <option>Commerce</option>
@@ -40,7 +73,7 @@ const Header = () => {
               <option>Commerce</option>
               <option>Analytics</option>
             </select>
-          </div>
+          </div> */}
           <div id="headerbtn1div">
             <button id="headerbtn1">
               <strong>BUY NOW</strong>
