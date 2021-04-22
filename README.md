@@ -1,8 +1,8 @@
 # responsive website using CSS and React
 
+![bamburgh](https://user-images.githubusercontent.com/63094930/115683964-94a04f80-a374-11eb-91c1-dbb5320a158d.gif)
 
-
-# Getting Started with Create React App
+Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
